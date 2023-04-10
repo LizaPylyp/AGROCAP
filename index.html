@@ -5,85 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SKYAGRO</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
     <div class="header-container">
-<nav>
-    <a href="./index.html"><span>SKY</span>AGRO</a>
-    <ul>
-        <li><a href="./index.html">Головна</a></li>
-        <li><a href="./index.html">Послуги</a></li>
-        <li><a href="./index.html">Опис</a></li>
+<nav class="header">
+    <a class="agro" href="./index.html"><span class="span">SKY</span>AGRO</a>
+    <ul class="menu">
+        <li><a class="header-menu" href="./index.html">Головна</a></li>
+        <li><a class="header-menu" href="./index.html">Послуги</a></li>
+        <li><a class="header-menu" href="./index.html">Опис</a></li>
     </ul>
 </nav>
 </div>
     </header>
     <main>
-<section>
-    <div class="container">
-    <button type="button">Замовити послугу</button>
+<section class="photo">
+    <div class="container-photo">
+    <button class="button" type="button">Замовити послугу</button>
 </div>
 </section>
-<section>
-    <div class="container">
-    <ul>
-        <li>
-            <h1>ПОСЛУГА</h1>
-            <p>Безкоштовна доставка пристрою замовнику та виїзд на місце;
-
-                Створення комплексних рішень для організацій, інтеграція в бізнес процеси;
-                
-                Розробка і установка додаткових модулів під Ваші завдання;
-                
-                Ремонт протягом 24-х годин;</p>
+<section class="service">
+    <div class="container-service">
+    <ul class="poslygu">
+        <li class="menu-text">
+            <h1 class="title">ПОСЛУГА</h1>
+            <p class="text">Безкоштовна доставка пристрою замовнику та виїзд на місце;
+            Створення комплексних рішень для організацій, інтеграція в бізнес процеси; Розробка і установка додаткових модулів під Ваші завдання;Ремонт протягом 24-х годин;</p>
         </li>
-        <li>
-                <h1>ОПЛАТА</h1>
-                <p>У відділені Нової Пошти при отримані товару
+        <li class="menu-text">
+                <h1 class="title">ОПЛАТА</h1>
+                <p class="text">У відділені Нової Пошти при отримані товару
 
                     Через касу або термінал самообслуговування Приватбанку
                     
-                    При оплаті будь-яким із запропонованих 
-                    способів Ви не платите ніяких прихованих доп. комісій і ціна пристрою не змінюється. Адже головне - довіра! </p>
+                    При оплаті будь-яким із запропонованих  способів Ви не платите ніяких прихованих доп. комісій і ціна пристрою не змінюється. Адже головне - довіра! </p>
         </li>
     </ul>
 </div>
 </section>
-<section>
-    <div class="container">
-    <h2>Чим ми займаємось</h2>
-    <ul>
-        <li>
-         <a href=""></a>   <img src="" alt="">
-        </li>
-        <li>
-            <a href=""></a>   <img src="" alt="">
-           </li>
-    </ul>
+<section class="popupe">
+    <div class="container-video">
+    <h2 class="second-title">Чим ми займаємось</h2>
+    <div class="video">
+    <video controls class="video-1">
+        <source class="video-1" src="./videos/IMG_0804.MP4">
+        </video>
+        <video controls class="video-2">
+            <source  src="./videos/IMG_0805.MP4">
+        </video>
+    </div>
 </div>
 </section>
     </main>
     <footer>
         <div class="footer-container">
-<a href="./index.html"><span>SKY</span>AGRO</a>
-<a href="mailto:SKYAGRO@gmail.com">SKYAGRO@gmail.com</a>
-<p>Контакти</p>
+            <div class="number one">
+<a class="footer-agro" href="./index.html"><span class="footer-sky">SKY</span>AGRO</a>
+<a class="footer-gmail" href="mailto:SKYAGRO@gmail.com"><span class="footer-span">SKY</span>AGRO@gmail.com</a>
+</div>
+<div class="number two">
+<p class="footer-text">Контакти</p>
 <ul>
-    <li><a href="tel:+380632758827"></a>+380632758827</li>
-    <li><a href="tel:+380975605857"></a>+380975605857</li>
+    <li><a class="contacts" href="tel:+380632758827">+380632758827</a></li>
+    <li><a class="contacts" href="tel:+380975605857">+380975605857</a></li>
+</div>
 </ul>
-<h3>Соціальні мережі</h3>
-<a href="">
-    <svg>
-        <use></use>
+<div class="number">
+<h3 class="footer-title">Соціальні мережі</h3>
+<a class="insta" href="https://instagram.com/skyagro.dron?igshid=YmMyMTA2M2Y=">
+    <svg width="26" height="26">
+        <use href="./images/symbol-defs.svg#vector-25"></use>
     </svg>
 </a>
-<a href="">
-    <svg>
-        <use></use>
+<a class="facebook" href="">
+    <svg width="26" height="26">
+        <use href="./images/symbol-defs.svg#facebook-1"></use>
     </svg>
 </a>
+</div>
 </div>
     </footer>
 </body>
