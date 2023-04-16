@@ -17,12 +17,12 @@ if(mb_strlen($location) <10 || mb_strlen($location)>400){
 }
 
 
-$mysql = new mysqli('root', 'root', 'root', 'root', 'registr');
-$mysql->query ("INSERT INTO `registration` (`name`, `location`, `volune`, `telefon`)
+$mysql = new mysqli('root', 'root', 'root', 'root', 'lolo');
+$mysql->query ("INSERT INTO `regi` (`name`, `location`, `volune`, `telefon`),
 VALUES('$name', '$location', '$volume', '$telefon')");
 
 
 $mysql->close();
-
+ini_set('max_execution_time', 300);
 header('Location: /')
 ?>
